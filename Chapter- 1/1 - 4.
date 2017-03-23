@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int lower=0,upper=110,step=10,celsius;
+float fahrenheit;
+clrscr();
+printf("  C       F\n");
+while(lower<=upper)
+{
+celsius=lower;
+fahrenheit = celsius * (9.0 / 5.0) + 32.0;
+printf("%3d\t%6f\n",celsius, fahrenheit);
+lower=lower+step;
+}
+getch();
+}
+
