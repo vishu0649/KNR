@@ -1,0 +1,10 @@
+#incluude<stdio.h>
+void main()
+{
+printf("tab=\t\n");
+printf("backspace=\b\n");
+printf("double quotes=\\n");
+printf("slash=\\\n");
+printf("alert=\a\n");
+printf("percentage=\%);
+}
